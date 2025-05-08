@@ -3,6 +3,7 @@
 🌍 Cloud Removal & Land Segmentation using CycleGAN & UNET Land Segmentation**  
 🚀 A deep learning-based application for cloud removal from satellite images and land segmentation using COCO segmentation.  
 
+
 ## 📌 Features  
 ✅ Cloud Removal using a trained CycleGAN model.  
 ✅ Land Segmentation using a COCO segmentation model.  
@@ -15,26 +16,6 @@
 - Machine Learning Models: PyTorch (CycleGAN), COCO segmentation  
 - Database: N/A (File-based storage)  
 
-  📂 *Project Structure
-
-├── backend/                    # Flask Backend
-│   ├── app.py                   # Main Flask app
-│   ├── cloud_removal.py         # Cloud Removal Model
-│   ├── coco_segmentation.py     # Land Segmentation Model
-│   ├── static/                  # Static Files (CSS, JS)
-│   ├── templates/               # HTML Templates
-│   ├── uploads/                 # Input Images Folder
-│   ├── outputs/                 # Processed Images Folder
-├── frontend/                   # Frontend Code
-│   ├── index.html               # Frontend UI
-│   ├── app.css                  # Stylesheet
-│   ├── scripts.js               # JavaScript Logic
-├── dataset/                    # Large Dataset Files (Handled by Git LFS)
-├── models/                     # Pretrained ML Models (Handled by Git LFS)
-├── .gitattributes               # Git LFS Configurations
-├── .gitignore                   # Ignored Files
-├── requirements.txt             # Python Dependencies
-├── README.md                    # Project Documentation
 
 🚀 Installation & Setup  
 
